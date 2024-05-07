@@ -2,8 +2,11 @@ import express from "express";
 import dotenv from "dotenv";
 import cors from "cors";
 import cookieParser from "cookie-parser";
+
 import authRoutes from "./routes/auth.routes.js";
 import messageRoutes from "./routes/auth.message.js";
+import usersRoutes from "./routes/users.routes.js";
+
 import connectDB from "./db/connect.js";
 
 const app = express();
@@ -19,6 +22,7 @@ app.use(cookieParser());
 
 app.use("/api/auth", authRoutes);
 app.use("/api/messages", messageRoutes);
+app.use("/api/users", usersRoutes);
 
 
 
