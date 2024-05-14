@@ -4,7 +4,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon Server/app.js"
+    "dev": "nodemon Server/app.js",
+    "start": "node Server/app.js",
+    "build": "npm install && npm install --prefix Client && npm run build --prefix Client"
   },
   "type": "module",
   "keywords": [],
