@@ -17,7 +17,7 @@ export const SocketContextProvider = ({ children }) => {
         let newSocket;
         if (authUser && !socket) {
             try {
-                newSocket = io("https://mern-chat-app-2tt6.onrender.com ", {
+                newSocket = io("https://chitchatnow-63gu.onrender.com", {
                     query: {
                         userId: authUser._id,
                     },
