@@ -2,6 +2,8 @@
 
 ChitChatNow is a real-time messaging web application developed using the MERN stack (MongoDB, Express.js, React.js, Node.js) and web sockets.
 
+Project Link: [https://chitchatnow-63gu.onrender.com](https://chitchatnow-63gu.onrender.com)
+
 ## Features
 - Real-time messaging: Seamlessly chat with friends and colleagues in real-time.
 - User authentication: Securely sign up and log in to your account.
@@ -34,4 +36,4 @@ Contributions are what make the open-source community such an amazing place to l
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-Project Link: [https://chitchatnow-63gu.onrender.com](https://chitchatnow-63gu.onrender.com)
+
